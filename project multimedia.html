@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Haven</title>
+    <link rel="stylesheet" type="text/css" href="project multimedia.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.jpeg" alt="Novel Haven Logo">
+        </div>
+        <div id="headerContent">
+            <h1>Novel Haven</h1>
+            <p>Immerse Yourself in Stories</p>
+        </div>
+        <nav id="topMenu">
+            <a href="#bannerImage">Home</a> 
+            <a href="#bookTable">Genres</a>
+            <a href="#gallery">Popular</a>
+            <a href="#recommendationForm">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="bannerImage">
+            <h2>Discover Your Next Favorite Read</h2>
+        </div>
+
+        <div id="content">
+            <p>Welcome to Novel Haven, your ultimate destination for reading and discovering new books.</p>
+            <p>Explore our vast collection of novels, from timeless classics to modern bestsellers.</p>
+            <p>Find recommendations, reviews, and connect with other book lovers.</p>
+        </div>
+
+        <!-- Image Gallery Section -->
+        <section id="gallery">
+            <h2>Featured Books</h2>
+            <div class="image-row">
+                <img src="IMAGE 1.jpg" alt="Book 1">
+                <img src="Image 2.avif" alt="Book 2">
+                <img src="Image 3.webp" alt="Book 3">
+            </div>
+        </section>
+
+        <!-- Book Table Section -->
+        <section id="bookTable">
+            <h2>Top Genres & Popular Books</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Genre</th>
+                        <th>Popular Books</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fantasy</td>
+                        <td>Harry Potter, Lord of the Rings</td>
+                    </tr>
+                    <tr>
+                        <td>Thriller</td>
+                        <td>Gone Girl, The Girl with the Dragon Tattoo</td>
+                    </tr>
+                    <tr>
+                        <td>Romance</td>
+                        <td>Pride and Prejudice, The Notebook</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Book Recommendation Form -->
+        <section id="recommendationForm">
+            <h2>Recommend a Book</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="book">Book Name:</label>
+                <input type="text" id="book" name="book" required>
+
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="fantasy">Fantasy</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="romance">Romance</option>
+                </select>
+
+                <label for="reason">Why do you recommend it?</label>
+                <textarea id="reason" name="reason" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Video Section -->
+        <section id="videoSection">
+            <h2>About reading</h2>
+            <video width="600" controls>
+                <source src="vid multimedia (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@novelhaven.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 Book Street, Library City, BK 45678</p>
+        </section>
+
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Novel Haven. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
